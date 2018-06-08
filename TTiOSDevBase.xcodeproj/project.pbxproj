@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0403924B20CA6BA000EFC676 /* UIView+QuickFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403924A20CA6BA000EFC676 /* UIView+QuickFrame.m */; };
+		0403925020CA759900EFC676 /* TTBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403924F20CA759900EFC676 /* TTBackButton.m */; };
+		0403925320CA7C2700EFC676 /* TTCloseAllButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403925220CA7C2700EFC676 /* TTCloseAllButton.m */; };
 		0424A86B20C90E8200581976 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424A86A20C90E8200581976 /* AppDelegate.m */; };
 		0424A87120C90E8200581976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0424A86F20C90E8200581976 /* Main.storyboard */; };
 		0424A87320C90E8300581976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0424A87220C90E8300581976 /* Assets.xcassets */; };
@@ -20,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0403924920CA6BA000EFC676 /* UIView+QuickFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+QuickFrame.h"; sourceTree = "<group>"; };
+		0403924A20CA6BA000EFC676 /* UIView+QuickFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+QuickFrame.m"; sourceTree = "<group>"; };
+		0403924E20CA759900EFC676 /* TTBackButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTBackButton.h; sourceTree = "<group>"; };
+		0403924F20CA759900EFC676 /* TTBackButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTBackButton.m; sourceTree = "<group>"; };
+		0403925120CA7C2700EFC676 /* TTCloseAllButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTCloseAllButton.h; sourceTree = "<group>"; };
+		0403925220CA7C2700EFC676 /* TTCloseAllButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTCloseAllButton.m; sourceTree = "<group>"; };
 		0424A86620C90E8200581976 /* TTiOSDevBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTiOSDevBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0424A86920C90E8200581976 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0424A86A20C90E8200581976 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +63,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0403924C20CA758600EFC676 /* TTBackButton */ = {
+			isa = PBXGroup;
+			children = (
+				0403924E20CA759900EFC676 /* TTBackButton.h */,
+				0403924F20CA759900EFC676 /* TTBackButton.m */,
+			);
+			path = TTBackButton;
+			sourceTree = "<group>";
+		};
+		0403924D20CA758600EFC676 /* TTCloseAllButton */ = {
+			isa = PBXGroup;
+			children = (
+				0403925120CA7C2700EFC676 /* TTCloseAllButton.h */,
+				0403925220CA7C2700EFC676 /* TTCloseAllButton.m */,
+			);
+			path = TTCloseAllButton;
+			sourceTree = "<group>";
+		};
 		0424A85D20C90E8200581976 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +120,8 @@
 		0424A87F20C90FB000581976 /* TTUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				0403924C20CA758600EFC676 /* TTBackButton */,
+				0403924D20CA758600EFC676 /* TTCloseAllButton */,
 				0424A88420C9243600581976 /* TTHybridViewController */,
 				0424A88020C90FB000581976 /* TTWebView */,
 			);
@@ -122,6 +151,8 @@
 			children = (
 				0424A88920C929B600581976 /* UIViewController+NavigationBar.h */,
 				0424A88A20C929B600581976 /* UIViewController+NavigationBar.m */,
+				0403924920CA6BA000EFC676 /* UIView+QuickFrame.h */,
+				0403924A20CA6BA000EFC676 /* UIView+QuickFrame.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -255,8 +286,11 @@
 				0424A87920C90E8300581976 /* main.m in Sources */,
 				0424A88B20C929B600581976 /* UIViewController+NavigationBar.m in Sources */,
 				0424A86B20C90E8200581976 /* AppDelegate.m in Sources */,
+				0403925320CA7C2700EFC676 /* TTCloseAllButton.m in Sources */,
+				0403924B20CA6BA000EFC676 /* UIView+QuickFrame.m in Sources */,
 				0424A89420C93E0F00581976 /* TTTools.m in Sources */,
 				0424A88720C9246A00581976 /* TTHybridViewController.m in Sources */,
+				0403925020CA759900EFC676 /* TTBackButton.m in Sources */,
 				0424A88320C90FC700581976 /* TTWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
