@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TTHybridViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    TTHybridViewController *hybridVC = [[TTHybridViewController alloc] init];
+    UINavigationController *naviVC = [[UINavigationController alloc] initWithRootViewController:hybridVC];
+    self.window.rootViewController = naviVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

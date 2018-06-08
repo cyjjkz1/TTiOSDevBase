@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0424A86B20C90E8200581976 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424A86A20C90E8200581976 /* AppDelegate.m */; };
-		0424A86E20C90E8200581976 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424A86D20C90E8200581976 /* ViewController.m */; };
 		0424A87120C90E8200581976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0424A86F20C90E8200581976 /* Main.storyboard */; };
 		0424A87320C90E8300581976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0424A87220C90E8300581976 /* Assets.xcassets */; };
 		0424A87620C90E8300581976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0424A87420C90E8300581976 /* LaunchScreen.storyboard */; };
 		0424A87920C90E8300581976 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424A87820C90E8300581976 /* main.m */; };
 		0424A88320C90FC700581976 /* TTWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424A88220C90FC700581976 /* TTWebView.m */; };
+		0424A88720C9246A00581976 /* TTHybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424A88620C9246A00581976 /* TTHybridViewController.m */; };
+		0424A88B20C929B600581976 /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424A88A20C929B600581976 /* UIViewController+NavigationBar.m */; };
+		0424A89420C93E0F00581976 /* TTTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424A89320C93E0F00581976 /* TTTools.m */; };
 		6EDACCF7FDBF0A1629DAF6D7 /* libPods-TTiOSDevBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 976B695850764F23D4BAFF71 /* libPods-TTiOSDevBase.a */; };
 /* End PBXBuildFile section */
 
@@ -21,8 +23,6 @@
 		0424A86620C90E8200581976 /* TTiOSDevBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTiOSDevBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0424A86920C90E8200581976 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0424A86A20C90E8200581976 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0424A86C20C90E8200581976 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0424A86D20C90E8200581976 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0424A87020C90E8200581976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0424A87220C90E8300581976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0424A87520C90E8300581976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +30,13 @@
 		0424A87820C90E8300581976 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0424A88120C90FC700581976 /* TTWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTWebView.h; sourceTree = "<group>"; };
 		0424A88220C90FC700581976 /* TTWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTWebView.m; sourceTree = "<group>"; };
+		0424A88520C9246A00581976 /* TTHybridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTHybridViewController.h; sourceTree = "<group>"; };
+		0424A88620C9246A00581976 /* TTHybridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTHybridViewController.m; sourceTree = "<group>"; };
+		0424A88920C929B600581976 /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
+		0424A88A20C929B600581976 /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
+		0424A88D20C92AFD00581976 /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		0424A89220C93E0F00581976 /* TTTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTools.h; sourceTree = "<group>"; };
+		0424A89320C93E0F00581976 /* TTTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTools.m; sourceTree = "<group>"; };
 		8F071BBF73ABD70897241E8C /* Pods-TTiOSDevBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTiOSDevBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTiOSDevBase/Pods-TTiOSDevBase.debug.xcconfig"; sourceTree = "<group>"; };
 		976B695850764F23D4BAFF71 /* libPods-TTiOSDevBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTiOSDevBase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A3FDE359E7C91112F225B6 /* Pods-TTiOSDevBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTiOSDevBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTiOSDevBase/Pods-TTiOSDevBase.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,11 +75,12 @@
 		0424A86820C90E8200581976 /* TTiOSDevBase */ = {
 			isa = PBXGroup;
 			children = (
+				0424A89120C93DAA00581976 /* TTTools */,
+				0424A88C20C92ACE00581976 /* Config */,
+				0424A88820C9296C00581976 /* Category */,
 				0424A87F20C90FB000581976 /* TTUIKit */,
 				0424A86920C90E8200581976 /* AppDelegate.h */,
 				0424A86A20C90E8200581976 /* AppDelegate.m */,
-				0424A86C20C90E8200581976 /* ViewController.h */,
-				0424A86D20C90E8200581976 /* ViewController.m */,
 				0424A86F20C90E8200581976 /* Main.storyboard */,
 				0424A87220C90E8300581976 /* Assets.xcassets */,
 				0424A87420C90E8300581976 /* LaunchScreen.storyboard */,
@@ -85,6 +93,7 @@
 		0424A87F20C90FB000581976 /* TTUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				0424A88420C9243600581976 /* TTHybridViewController */,
 				0424A88020C90FB000581976 /* TTWebView */,
 			);
 			path = TTUIKit;
@@ -97,6 +106,41 @@
 				0424A88220C90FC700581976 /* TTWebView.m */,
 			);
 			path = TTWebView;
+			sourceTree = "<group>";
+		};
+		0424A88420C9243600581976 /* TTHybridViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0424A88520C9246A00581976 /* TTHybridViewController.h */,
+				0424A88620C9246A00581976 /* TTHybridViewController.m */,
+			);
+			path = TTHybridViewController;
+			sourceTree = "<group>";
+		};
+		0424A88820C9296C00581976 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0424A88920C929B600581976 /* UIViewController+NavigationBar.h */,
+				0424A88A20C929B600581976 /* UIViewController+NavigationBar.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0424A88C20C92ACE00581976 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0424A88D20C92AFD00581976 /* define.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		0424A89120C93DAA00581976 /* TTTools */ = {
+			isa = PBXGroup;
+			children = (
+				0424A89220C93E0F00581976 /* TTTools.h */,
+				0424A89320C93E0F00581976 /* TTTools.m */,
+			);
+			path = TTTools;
 			sourceTree = "<group>";
 		};
 		540124CCDBE8BAAF7433B794 /* Frameworks */ = {
@@ -208,9 +252,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0424A86E20C90E8200581976 /* ViewController.m in Sources */,
 				0424A87920C90E8300581976 /* main.m in Sources */,
+				0424A88B20C929B600581976 /* UIViewController+NavigationBar.m in Sources */,
 				0424A86B20C90E8200581976 /* AppDelegate.m in Sources */,
+				0424A89420C93E0F00581976 /* TTTools.m in Sources */,
+				0424A88720C9246A00581976 /* TTHybridViewController.m in Sources */,
 				0424A88320C90FC700581976 /* TTWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

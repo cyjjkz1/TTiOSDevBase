@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TTHybridViewController.h
 //  TTiOSDevBase
 //
 //  Created by mac on 2018/6/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TTHybridViewController : UIViewController
 
 @end
-
